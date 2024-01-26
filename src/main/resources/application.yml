@@ -1,0 +1,13 @@
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          aad:
+            client-id: b71ebdf9-82e0-4f4f-9823-f0c9a2bb6565
+            client-secret: wWh8Q~tnXXalZ9u_6J.H0VIi6ITEYQx6aWP6ubqk
+            scope: openid+profile+email
+            client-name: FATCA Login with AzureAD
+        provider:
+          aad:
+            issuer-uri: https://login.microsoftonline.com/9ff98e40-9a72-43a0-9d8a-f7b7b41d9af7/v2.0            
